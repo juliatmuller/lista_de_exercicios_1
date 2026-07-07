@@ -1,0 +1,6 @@
+<?php
+
+function gerarSenha($caracteres)
+{
+    
+}
