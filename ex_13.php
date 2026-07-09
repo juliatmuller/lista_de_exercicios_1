@@ -20,7 +20,7 @@ function descriptografarMensagem($texto, $deslocamento = 3) {
     return criptografarMensagem($texto, 26 - ($deslocamento % 26));
 }
 
-$mensagemOriginal = "Proteja mensagens pequenas com cifra de César";
+$mensagemOriginal = "Amo minha cidade natal";
 $mensagemCriptografada = criptografarMensagem($mensagemOriginal);
 $mensagemDescriptografada = descriptografarMensagem($mensagemCriptografada);
 
