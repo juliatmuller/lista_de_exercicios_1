@@ -45,4 +45,4 @@
             Perfeito: $perfeito";
 }
 
-echo analisarN(11);
+echo analisarN(9);
