@@ -14,7 +14,7 @@ function analisarTexto($texto){
     );
 }
 
-$texto = "Pedro Paulo Vieira Junior";
+$texto = "Piracanjulia";
 
 echo "Texto original: $texto<br>";
 

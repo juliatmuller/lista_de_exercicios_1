@@ -1,6 +1,6 @@
 <?php
 
-    function analisarNumero($numero){
+    function analisarN($numero){
 
     if($numero % 2 == 0){
        $paridade = "Par";
@@ -8,7 +8,7 @@
         $paridade = "Ímpar";
     }
 
-    //.
+
 
     $divisores = 0;
 
@@ -24,7 +24,7 @@
         $primo = "Não é primo";
     }
 
-    //.
+   
 
     $soma = 0;
         for($i = 1; $i <= $numero; $i++){
@@ -45,4 +45,4 @@
             Perfeito: $perfeito";
 }
 
-echo analisarNumero(11);
+echo analisarN(11);

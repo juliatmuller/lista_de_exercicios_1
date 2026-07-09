@@ -1,6 +1,6 @@
 <?php
 
-    function calcularDesconto($valor){
+    function calcularD($valor){
 
     if($valor <= 100 ){
         $desconto = 0;
@@ -25,4 +25,4 @@
            "<br>Valor final: R$ " . number_format($valorFinal, 2, ",", ".") . "<br><br>";
     }
 
-    echo calcularDesconto(600) . " <br>";
+    echo calcularD(600) . " <br>";

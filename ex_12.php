@@ -75,11 +75,10 @@ $produtos = [
     ['nome' => 'Sal', 'preco' => 2.50]
 ];
 
-//produto valido para pesquisa
+
 $nomePesquisa = 'arroz'; 
 
-//produto invalido para pesquisa
-//$nomePesquisa = 'leite'; 
+
 
 $resultado = analisarProdutos($produtos, $nomePesquisa);
 
