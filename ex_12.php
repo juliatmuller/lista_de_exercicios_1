@@ -68,11 +68,11 @@ function pesquisarProduto($produtos, $nomePesquisa) {
 }
 
 $produtos = [
-    ['nome' => 'Arroz', 'preco' => 5.50],
-    ['nome' => 'Feijão', 'preco' => 8.00],
-    ['nome' => 'Macarrão', 'preco' => 3.20],
-    ['nome' => 'Açúcar', 'preco' => 6.80],
-    ['nome' => 'Sal', 'preco' => 2.50]
+    ['nome' => 'Arroz', 'preco' => 7.50],
+    ['nome' => 'Feijão', 'preco' => 6.00],
+    ['nome' => 'Macarrão', 'preco' => 4.55],
+    ['nome' => 'Açúcar', 'preco' => 9.10],
+    ['nome' => 'Sal', 'preco' => 3.70]
 ];
 
 
