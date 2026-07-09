@@ -17,4 +17,4 @@
     return implode(", ", $lista);
 }
 
-echo ordenarNomes("Pedro, Ana,   Carlos, João, Maria");
+echo ordenarNomes("Juju, Thutu, Kami, Gomes, luis");
