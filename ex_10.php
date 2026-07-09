@@ -31,7 +31,7 @@ function verificarSituacaoFinal($media) {
     return ($media >= 7) ? 'Aprovado' : 'Reprovado';
 }
 
-$notas = [8, 6, 9, 7, 5];
+$notas = [6, 9, 10, 4, 7];
 $resultado = calcularMedia($notas);
 
 echo "Notas: " . implode(", ", $notas) . "<br>";
