@@ -29,7 +29,7 @@ function contarCaracteres($texto) {
     return strlen($texto);
 }
 
-$textoEntrada = "padronizar relatórios automaticamente";
+$textoEntrada = "estou ansiosa para as minhas ferias de inverno";
 $resultado = formatarTexto($textoEntrada);
 
 echo "<b>Texto original:</b> " . $textoEntrada . "<br> <br>";
